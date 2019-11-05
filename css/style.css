@@ -38,10 +38,16 @@ body {
   /* display: block; */
   padding-top: 120px
 }
+.works2019 img{
+  pedding: 10px;
+  margin-bottom: 70px;
+
+}
+
 
 .works2017 img {
   width: 100px;
-  padding: 10px;
+  pedding: 10px;
 
 }
 
