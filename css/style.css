@@ -1,0 +1,53 @@
+body {
+  font-family: monospace;
+}
+
+.menu {
+  font-size: 13px;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.menu a {
+  color: black;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.years {
+  font-size: 13px;
+  float: left;
+  position: relative;
+  left: 0;
+  width: 100px;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.years a {
+  color: grey;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+.works {
+  float: left;
+  position: absolute;
+  left: 100px;
+  /* display: block; */
+  padding-top: 120px
+}
+
+.works2017 img {
+  width: 100px;
+  padding: 10px;
+
+}
+
+
+.cv{
+ position: absolute;
+ left: 50px;
+ padding-top: 50px;
+}
