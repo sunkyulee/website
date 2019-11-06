@@ -10,7 +10,7 @@ body {
 
 .menu a {
   color: black;
-  padding-right: 50px;
+  padding-right: 70px;
   text-decoration: none;
 }
 
@@ -35,19 +35,42 @@ body {
   float: left;
   position: absolute;
   left: 100px;
-  /* display: block; */
-  padding-top: 120px
+  display: block;
+  padding-top: 120px;
 }
-.works2019 img{
-  pedding: 10px;
-  margin-bottom: 70px;
 
+.works2019 p {
+  text-align: left;
+  margin:0;
+  margin-bottom: 70px;
+  margin-top: 5px;
+}
+
+.works2019 img{
+  margin-bottom: 0px;
+  display: block;
+
+}
+
+.works2018 p{
+  margin:6px;
+}
+
+.works2018 img{
+  width: 130px;
+  pedding: 10px;
+}
+
+
+.works2017 p{
+  margin:6px;
 }
 
 
 .works2017 img {
-  width: 100px;
+  width: 130px;
   pedding: 10px;
+
 
 }
 
