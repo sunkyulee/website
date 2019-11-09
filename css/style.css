@@ -34,9 +34,9 @@ body {
 .works {
   float: left;
   position: absolute;
-  left: 100px;
+  left: 160px;
   display: block;
-  padding-top: 120px;
+  padding-top: 140px;
 }
 
 .works2019 p {
@@ -52,13 +52,20 @@ body {
 
 }
 
+.works2018 video{
+  margin-bottom: 200px;
+  display: block;
+
+}
+
 .works2018 p{
   margin:6px;
 }
 
 .works2018 img{
   width: 130px;
-  pedding: 10px;
+  padding: 10px;
+
 }
 
 
@@ -69,7 +76,7 @@ body {
 
 .works2017 img {
   width: 130px;
-  pedding: 10px;
+  padding: 5px;
 
 
 }
