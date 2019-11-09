@@ -39,9 +39,13 @@ body {
   padding-top: 140px;
 }
 
+.works2019 video{
+  margin-bottom: 0px;
+  display: block;
+}
+
 .works2019 p {
-  text-align: left;
-  margin:0;
+  margin:6px;
   margin-bottom: 70px;
   margin-top: 5px;
 }
@@ -53,14 +57,10 @@ body {
 }
 
 .works2018 video{
-  margin-bottom: 200px;
+  margin-bottom: 0px;
   display: block;
-
 }
 
-.works2018 p{
-  margin:6px;
-}
 
 .works2018 img{
   width: 130px;
@@ -68,6 +68,9 @@ body {
 
 }
 
+.works2018 p{
+  margin:6px;
+}
 
 .works2017 p{
   margin:6px;
