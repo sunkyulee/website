@@ -62,7 +62,7 @@ body {
 .works2019 .aaa img {
   max-width: auto;
   max-height: 300px;
-  margin-right:15px;
+  margin-right: 15px;
   padding: 6px;
 }
 
@@ -71,8 +71,6 @@ body {
   padding: 5px;
   margin: 0;
 }
-
-
 
 .works2018 p {
   color: grey;
@@ -95,9 +93,6 @@ body {
   margin: 0;
 }
 
-
-
-
 .works2017 p {
   color: grey;
   font-size: 12px;
@@ -112,6 +107,13 @@ body {
 }
 
 .cv {
+  position: absolute;
+  left: 8px;
+  padding-top: 40px;
+  color: grey;
+}
+
+.info {
   position: absolute;
   left: 8px;
   padding-top: 40px;
