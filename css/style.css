@@ -16,12 +16,11 @@ body {
 
 .years {
   font-size: 13px;
-  float: left;
   position: relative;
-  left: 0;
-  width: 100px;
-  height: 100vh;
+  width: 140px;
+  height: 80px;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .years a {
@@ -30,64 +29,91 @@ body {
   text-decoration: none;
 }
 
-
-.works {
-  float: left;
-  position: absolute;
-  left: 160px;
-  display: block;
-  padding-top: 140px;
+.years a:hover {
+  color: red;
 }
 
-.works2019 video{
-  margin-bottom: 0px;
+.works {
+  /* float: left; */
+  position: absolute;
+  /* left: 0px; */
   display: block;
+}
+
+.caption {
+  /* border: 1px solid; */
+  position: absolute;
+}
+
+.file {
+  left: 140px;
+  position: relative;
+  width: calc(100% - 140px);
 }
 
 .works2019 p {
-  margin:6px;
-  margin-bottom: 70px;
-  margin-top: 5px;
+  color: grey;
+  font-size: 12px;
+  float: left;
+  width: 140px;
+  margin-top: 0px;
 }
 
-.works2019 img{
-  margin-top: 140px;
-  display: block;
-
+.works2019 .aaa img {
+  max-width: auto;
+  max-height: 300px;
+  margin-right:15px;
+  padding: 6px;
 }
 
-.works2018 video{
-  margin-bottom: 0px;
-  display: block;
+.works2019 .bbb img {
+  width: 90px;
+  padding: 5px;
+  margin: 0;
 }
 
 
-.works2018 img{
-  width: 130px;
-  padding: 10px;
 
+.works2018 p {
+  color: grey;
+  font-size: 12px;
+  float: left;
+  width: 140px;
+  margin-top: 0px;
 }
 
-.works2018 p{
-  margin:6px;
+.works2018 .aaa img {
+  max-width: auto;
+  max-height: 300px;
+  margin-right: 15px;
+  padding: 6px;
 }
 
-.works2017 p{
-  margin:6px;
+.works2018 .bbb img {
+  width: 90px;
+  padding: 5px;
+  margin: 0;
 }
 
+
+
+
+.works2017 p {
+  color: grey;
+  font-size: 12px;
+  float: left;
+  width: 140px;
+  margin-top: 0px;
+}
 
 .works2017 img {
-  width: 130px;
-  padding: 5px;
-
-
+  width: 120px;
+  padding: 3px;
 }
 
-
-.cv{
- position: absolute;
- left: 8px;
- padding-top: 40px;
- color: grey;
+.cv {
+  position: absolute;
+  left: 8px;
+  padding-top: 40px;
+  color: grey;
 }
